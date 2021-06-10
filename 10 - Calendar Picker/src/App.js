@@ -43,10 +43,10 @@ export default function App() {
   return (
     <>
       <DateChooser
-        choosingType={choosingType}
-        setChoosingType={setChoosingType}
         startDate={startDate}
         endDate={endDate}
+        choosingType={choosingType}
+        setChoosingType={setChoosingType}
       />
 
       <StyledCalendar>
