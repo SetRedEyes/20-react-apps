@@ -43,8 +43,8 @@ export default function App() {
   return (
     <>
       <DateChooser
-        startDate={startDate}
         endDate={endDate}
+        startDate={startDate}
         choosingType={choosingType}
         setChoosingType={setChoosingType}
       />
