@@ -30,9 +30,7 @@ export default function App() {
         {messages.map((message, index) => {
           const even = index % 2 === 0
 
-          if (messageToShow + 1 === index) {
-            return <TypingIndicator key={index} even={even} />
-          }
+          if (messageToShow + 1 === index) return <TypingIndicator key={index} even={even} />
 
           if (index > messageToShow) return <div key={index}></div>
 

@@ -1,8 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 
-export const TypingIndicator = ({ even }) => {
-  return (
+export const TypingIndicator = ({ even }) =>(
     <motion.div
       className={`typing ${even ? 'is-right' : 'is-left'} `}
       initial={{ rotate: 10, scale: 0 }}
@@ -15,4 +14,4 @@ export const TypingIndicator = ({ even }) => {
       </div>
     </motion.div>
   )
-}
+
